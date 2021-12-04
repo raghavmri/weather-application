@@ -1,0 +1,27 @@
+.contianer-main {
+	width: 100%;
+}
+
+.container {
+	padding-left: 50px;
+	align-items: center;
+	padding-top: 20px;
+}
+
+.card {
+	width: 15%;
+}
+@media screen and (max-width: 1000px) {
+	.card {
+		visibility: hidden;
+		clear: both;
+		float: left;
+		margin: 10px auto 5px 20px;
+		width: 28%;
+		display: none;
+	}
+}
+
+.card-icon {
+	width: 100%;
+}
